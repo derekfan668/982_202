@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.S": "assembly",
+        "*.C": "c",
+        "app_var.h": "c",
+        "extern_ntc_det.h": "c"
+    }
+}

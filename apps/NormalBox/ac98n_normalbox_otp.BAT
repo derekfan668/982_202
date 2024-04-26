@@ -1,0 +1,70 @@
+SET C51INC=D:\keil\C51\INC\Atmel\;D:\keil\C51\INC\
+SET C51LIB=D:\keil\C51\LIB
+SET CPU_TYPE=AT89F52
+SET CPU_VENDOR=Atmel
+SET UV2_TARGET=ac98n_normalbox_otp
+SET CPU_XTAL=0x016E3600
+"D:\keil\C51\BIN\AX51.EXE" @.\work\STARTUP_OTP._ia
+"D:\keil\C51\BIN\C51.EXE" @.\work\adc.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\boost.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\burn.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\charge.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\io_wkup.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\pmu.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\pmu_wkup.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\power_hw.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\pulse_cnt.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\pwm_led.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\seg_led.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\uart.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\uart_key.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\vout_inserdet.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\app_close.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\app_common.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\app_main.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\board_config.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\boost_optimize.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\charge_optimize.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\hall_det.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\key.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\power_det.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\timer.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\usb_det.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\wireless.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\extern_ntc_det.__i
+"D:\keil\C51\BIN\C51.EXE" @.\work\inside_ntc_det.__i
+"D:\keil\C51\BIN\LX51.EXE" @.\work\f98_otp.lnp
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\adc.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\boost.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\burn.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\charge.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\pmu_wkup.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\power_hw.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\pulse_cnt.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\pwm_led.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\vout_inserdet.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\app_close.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\app_common.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\app_main.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\board_config.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\charge_optimize.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\hall_det.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\power_det.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\timer.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\usb_det.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\wireless.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\LX51.EXE" "@.\work\f98_otp.lnp"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\power_hw.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\app_close.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\app_common.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\app_main.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\board_config.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\timer.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\wireless.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\extern_ntc_det.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\LX51.EXE" "@.\work\f98_otp.lnp"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\app_common.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\C51.EXE" "@.\work\app_main.__i"
+"D:\keil\UV4\KSPAWN.EXE" "D:\keil\C51\BIN\LX51.EXE" "@.\work\f98_otp.lnp"
+"D:\keil\C51\BIN\OHX51.EXE" ".\work\f98_otp" HEX
+"D:\keil\UV4\KSPAWN.EXE" ./tools/load_otp.bat
